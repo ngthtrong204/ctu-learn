@@ -4,7 +4,7 @@
 ---
 ### Plan
 - [ ] Start basic for beginner, how to build an app?
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] .
+- [ ] .
+- [ ] .
 
