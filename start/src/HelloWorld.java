@@ -1,13 +1,24 @@
+import java.util.Scanner;
+
 public class HelloWorld {
-    public static void main(String[] arg) {
-        boolean flag = true;
-        if (!flag) {
-            System.out.println(358 % 350);
-            System.out.println(50000);
-        } else {
-            System.out.println(Math.max(7, Math.max(5, Math.sqrt(81))));
-            System.out.println((int) (Math.random() * 100));
+    static int sum(int a, int b) {
+        return a + b;
+    }
+
+    static float sum(float a, float b) {
+        {
+
+            return a + b;
         }
     }
 
+    public static void main(String[] arg) {
+        Scanner myScan = new Scanner(System.in);
+        int a = myScan.nextInt();
+        int b = myScan.nextInt();
+        System.out.println(sum(a, b));
+        float c = myScan.nextFloat();
+        float d = myScan.nextFloat();
+        System.out.println(sum(c, d));
+    }
 }
