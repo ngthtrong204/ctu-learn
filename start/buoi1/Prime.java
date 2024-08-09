@@ -1,0 +1,7 @@
+/**
+ * Prime
+ */
+public class Prime {
+
+  
+}
